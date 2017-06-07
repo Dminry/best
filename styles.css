@@ -3,7 +3,7 @@
 
 html,body {
 	height:100%;
-    background:center no-repeat fixed url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/BGRA0KYCD8.jpg');
+    background:center no-repeat  url('best1.psd');
     background-size: cover;
     color:#444;
     font-family: 'Lato', sans-serif;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 .btn,.well,.panel {
-    border-radius:0;
+    border-radius:30%;
 }
 
 .btn-danger {
@@ -33,6 +33,11 @@ a:hover {
 
 .text-danger, a.text-danger {
     color:#f44d3c;
+	font-size:68px;
+	font-family:italic;
+	margin-top:10px;
+	
+	
 }
 
 .btn-huge {
@@ -53,7 +58,7 @@ a:hover {
 }
 
 .navbar-trans {
-	background-color:#2b2b2b;
+	background-color:;
     color:#cdcdcd;
     border-width:0;
 }
@@ -64,7 +69,7 @@ a:hover {
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-	background-color:#f44d3c;
+	background-color: #f44d3c ;
 	color:#333;
 }
 
@@ -75,7 +80,7 @@ a:hover {
 }
 
 .navbar-trans a{
-    color:#cdcdcd;
+    color:red;
     letter-spacing:1px;
 }
 
@@ -140,9 +145,14 @@ section {
     }
 }
   
-#section1, #section3 {
-	background-color: rgba(0,0,0,0.7);
-	color:#fff;
+#section1 {
+	background-color: rgba(0,0,0,0);
+	color:red;
+	font-family: 'Bitter', serif;
+}
+#section3 {
+	background-color: rgba(0,0,0,0);
+	color:black;
 	font-family: 'Bitter', serif;
 }
   
@@ -156,7 +166,7 @@ section {
 }
 
 #section3 {
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0);
 }
 
 #section5 {
