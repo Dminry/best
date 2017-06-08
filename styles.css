@@ -3,7 +3,7 @@
 
 html,body {
 	height:100%;
-    background:center no-repeat fixed url('best1.jpg');
+    background:center no-repeat fixed url('best3.jpg');
     background-size: cover;
     color:#444;
     font-family: 'Lato', sans-serif;
@@ -147,15 +147,31 @@ section {
 }
   
 #section1 {
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0.);
 	color:red;
 	font-family: 'Bitter', serif;
 
 }
-#tel {margin-left:930px;
+#tel {
+	margin-left:930px;
 margin-top:-250px;
-font-size:45px;
+font-size:30px;
+font-family:italic;
+border:2px solid white;
+padding:10px 10px;
+background-color:white;
+border-radius:25px;
 
+}
+#igr {
+	margin-left:40px;
+	margin-top:400px;
+	font-size:40px;
+	font-family:italic;
+	border:2px solid white;
+	margin-right:750px;
+background-color:white;
+border-radius:25px;
 }
 #section3 {
 	background-color: rgba(0,0,0.0);
