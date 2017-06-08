@@ -3,7 +3,7 @@
 
 html,body {
 	height:100%;
-    background:center no-repeat  url('best1.psd');
+    background:center no-repeat fixed url('best1.jpg');
     background-size: cover;
     color:#444;
     font-family: 'Lato', sans-serif;
@@ -11,7 +11,7 @@ html,body {
 
 @media (min-width:768px) {
     h1 {
-        font-size:68px;
+        font-size:88px;
     }
 }
 
@@ -133,6 +133,7 @@ section {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+	
 }
 
 @media (min-width:768px) {
@@ -149,28 +150,43 @@ section {
 	background-color: rgba(0,0,0,0);
 	color:red;
 	font-family: 'Bitter', serif;
+
+}
+#tel {margin-left:930px;
+margin-top:-250px;
+font-size:45px;
+
 }
 #section3 {
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0.0);
 	color:black;
 	font-family: 'Bitter', serif;
+	background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);
+	
+	
 }
   
 #section4 {
 	background-color: #f6f6f6;
 	color:#444;
+	background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%)
 }
   
 #section2 {
-	background-color: #fff;
+	background-color: rgba(0,0,0,0.3);
+	height: 200px;
+background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);
+}
 }
 
 #section3 {
 	background-color: rgba(0,0,0,0);
+	background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%)
 }
 
 #section5 {
 	background-color: #fff;
+	background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%)
 }
 
 #section6 {
